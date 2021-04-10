@@ -163,3 +163,44 @@ body{
 .about-the-theater__statistics-elem{
     padding-bottom: 27px;
 }
+.productions__title,
+.productions__title span{
+    font-weight: 300;
+    font-size: 14px;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding-bottom: 90px;
+}
+.productions__title span{
+    color: #D1A954;
+}
+.productions__container-list{
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 150px;
+}
+.productions__elem-img{
+    width: 100%;
+}
+.productions__elem-title{
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.productions__elem-data{
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    position: absolute;
+    left: -6px;
+    bottom: 88px;
+    transform: rotate(
+    -90deg
+    );
+}
+.productions__elem{
+    position: relative;
+}
