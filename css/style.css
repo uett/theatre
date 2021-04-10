@@ -113,3 +113,53 @@ body{
 .playbill__button-nav--right i{
     padding-left: 11px;
 }
+.about-the-theater__title,
+.about-the-theater__title span{
+    padding-bottom: 95px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+.about-the-theater__title span{
+    color: #D1A954;
+}
+.about-the-theater__detailed-information{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 140px;
+}
+.about-the-theater__text{
+    max-width: 445px;
+    padding-right: 30px;
+}
+.about-the-theater__statistics{
+    padding-right: 60px;
+}
+.about-the-theater__text-title,
+.about-the-theater__statistics-title{
+    padding-bottom: 35px;
+    font-size: 21px;
+    letter-spacing: 0.1em;
+}
+.about-the-theater__text-subtitle{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: none;
+}
+.about-the-theater__statistics-text,
+.about-the-theater__statistics-text span{
+    font-size: 16px;
+    letter-spacing: 0.05em;
+}
+.about-the-theater__statistics-text span{
+    color: #D1A954;
+}
+.about-the-theater__statistics-img{
+    padding-bottom: 15px;
+}
+.about-the-theater__statistics-elem{
+    padding-bottom: 27px;
+}
