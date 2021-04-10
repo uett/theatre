@@ -204,3 +204,33 @@ body{
 .productions__elem{
     position: relative;
 }
+.achievement{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/achievement-theatre.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 126px;
+    margin-bottom: 140px;
+}
+.achievement__years{
+    padding-right: 103px;
+}
+.achievement__years p{
+    font-size: 72px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #D1A954;
+}
+.achievement__icon-star{
+    padding-bottom: 25px;
+}
+.achievement__comment{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.achievement__text{
+    font-size: 36px;
+    font-family: 'Open Sans', sans-serif;
+}
