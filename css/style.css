@@ -234,3 +234,15 @@ body{
     font-size: 36px;
     font-family: 'Open Sans', sans-serif;
 }
+.partners__title,
+.partners__title span{
+    font-weight: 300;
+    font-size: 14px;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding-bottom: 90px;
+}
+.partners__title span{
+    color: #D1A954;
+}
