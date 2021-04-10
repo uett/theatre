@@ -246,3 +246,14 @@ body{
 .partners__title span{
     color: #D1A954;
 }
+.partners__img{
+    padding: 39px;
+}
+.partners__container-el{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.partners{
+    margin-bottom: 110px;
+}
