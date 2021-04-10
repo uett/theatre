@@ -24,7 +24,7 @@
     </header>
     <main class="main">
         <article class="playbill">
-            <div class="playbill__information-about-the-theater">
+            <section class="playbill__information-about-the-theater">
                 <h1 class="playbill__title">
                     Большой театр
                 </h1>
@@ -34,18 +34,20 @@
                 <button class="playbill__button">
                     афиша
                 </button>
-            </div>
-            <div class="playbill__productions">
+            </section>
+            <section class="playbill__productions">
                 <div class="playbill__container-img">
                     <img src="img/playbill-img-1.png" alt="" class="playbill__img">
                     <img src="img/playbill-img-2.png" alt="" class="playbill__img playbill__img--background">
                 </div>
                 <div class="playbill__buttons">
-                    <button class="playbill__button playbill__button--left">пред</button>
-                    <button class="playbill__button playbill__button--right">след</button>
+                    <button class="playbill__button-nav playbill__button-nav--left"><i class="fa fa-long-arrow-left" aria-hidden="true"></i>пред</button>
+                    <button class="playbill__button-nav playbill__button-nav--right">след<i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
                 </div>
-            </div>
+            </section>
         </article>
+        
     </main>
 </body>
+<script src="https://use.fontawesome.com/1e86a438b8.js"></script>
 </html>

@@ -19,6 +19,8 @@ body{
     display: flex;
     justify-content: center;
     padding-top: 45px;
+    z-index: 10;
+    position: relative;
 }
 .header__list{
     padding-right: 163px;
@@ -36,4 +38,78 @@ body{
     letter-spacing: 0.05em;
     border-bottom: 2px solid #D1A954;
     padding-bottom: 4px;
+}
+.playbill{
+    position: relative;
+    padding-top: 267px;
+    padding-bottom: 208px;
+    top: -78px;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/playbill-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.playbill__information-about-the-theater{
+    padding-right: 125px;
+}
+.playbill__title{
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding-bottom: 45px;
+}
+.playbill__subtitle{
+    padding-bottom: 43px;
+    max-width: 540px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: none;
+}
+.playbill__button{
+    background-color: #D1A954;
+    padding: 10px 47px;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.playbill__productions{
+    width: 374px;
+}
+.playbill__container-img{
+    position: relative;
+    margin-bottom: 55px;
+}
+.playbill__img{
+    position: relative;
+    z-index: 10;
+}
+.playbill__img--background{
+    position: absolute;
+    left: 24px;
+    top: 23px;
+    z-index: 9;
+}
+.playbill__buttons{
+    display: flex;
+    justify-content: space-between;
+}
+.playbill__button-nav{
+    font-size: 18px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;  
+    color: #C4C4C4;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.playbill__button-nav--left i{
+    padding-right: 11px;
+}
+.playbill__button-nav--right i{
+    padding-left: 11px;
 }
