@@ -257,3 +257,45 @@ body{
 .partners{
     margin-bottom: 110px;
 }
+.footer__title,
+.footer__title span{
+    font-weight: 300;
+    font-size: 14px;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    padding-bottom: 90px;
+}
+.footer__title span{
+    color: #D1A954;
+}
+.footer__container-contacts{
+    display: flex;
+}
+.footer__contact-el{
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.footer__container-text-fields{
+    display: flex;
+}
+.footer__input{
+    width: 152px;
+    height: 17px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    border: 1px solid #616161;
+    outline: none;
+    padding: 10px 15px;
+}
+.footer__textarea{
+    width: 310px;
+    height: 106px;
+    margin-left: 30px;
+}
+.footer__container-input{
+    width: 432px;
+}
