@@ -14,11 +14,12 @@ a{
 }
 body{
     background-color: #333;
+    // width: 1920px;
 }
 .header{
     display: flex;
     justify-content: center;
-    padding-top: 45px;
+    padding-top: 52px;
     z-index: 10;
     position: relative;
 }
@@ -29,7 +30,7 @@ body{
     padding-right: 0px;
 }
 .header__link{
-    padding-right: 63px;
+    padding-right: 66px;
     font-size: 18px;
     letter-spacing: 0.1em;
 }
@@ -43,6 +44,7 @@ body{
     position: relative;
     padding-top: 267px;
     padding-bottom: 208px;
+    margin-bottom: 66px;
     top: -78px;
     z-index: 9;
     display: flex;
@@ -53,6 +55,7 @@ body{
 }
 .playbill__information-about-the-theater{
     padding-right: 125px;
+    align-self: center;
 }
 .playbill__title{
     font-size: 64px;
@@ -115,7 +118,7 @@ body{
 }
 .about-the-theater__title,
 .about-the-theater__title span{
-    padding-bottom: 95px;
+    padding-bottom: 101px;
     font-weight: 300;
     text-align: center;
     letter-spacing: 0.1em;
@@ -128,7 +131,7 @@ body{
 .about-the-theater__detailed-information{
     display: flex;
     justify-content: center;
-    padding-bottom: 140px;
+    padding-bottom: 123px;
 }
 .about-the-theater__text{
     max-width: 445px;
@@ -161,7 +164,7 @@ body{
     padding-bottom: 15px;
 }
 .about-the-theater__statistics-elem{
-    padding-bottom: 27px;
+    padding-bottom: 14px;
 }
 .productions__title,
 .productions__title span{
@@ -210,7 +213,7 @@ body{
     background-image: url(../img/achievement-theatre.png);
     background-repeat: no-repeat;
     background-position: center;
-    padding: 126px;
+    padding: 133px;
     margin-bottom: 140px;
 }
 .achievement__years{
@@ -224,6 +227,9 @@ body{
 }
 .achievement__icon-star{
     padding-bottom: 25px;
+}
+.achievement__icon-star img{
+    padding-right: 15px;
 }
 .achievement__comment{
     display: flex;
@@ -241,7 +247,7 @@ body{
     font-size: 48px;
     text-align: center;
     letter-spacing: 0.1em;
-    padding-bottom: 90px;
+    padding-bottom: 68px;
 }
 .partners__title span{
     color: #D1A954;
@@ -255,7 +261,7 @@ body{
     justify-content: center;
 }
 .partners{
-    margin-bottom: 110px;
+    margin-bottom: 82px;
 }
 .footer__title,
 .footer__title span{
