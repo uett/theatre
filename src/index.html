@@ -4,6 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link
             href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Open+Sans:wght@400;600&display=swap"
             rel="stylesheet"
@@ -70,7 +71,7 @@
                 </section>
             </article>
             <article class="about-the-theater">
-                <h2 class="about-the-theater__title"><span>о</span> театре</h2>
+                <h2 class="about-the-theater__title main-title"><span>о</span> театре</h2>
                 <section class="about-the-theater__detailed-information">
                     <div class="about-the-theater__text">
                         <h3 class="about-the-theater__text-title">
@@ -124,7 +125,7 @@
                 </section>
             </article>
             <article class="productions">
-                <h2 class="productions__title"><span>наши</span> постановки</h2>
+                <h2 class="productions__title main-title"><span>наши</span> постановки</h2>
                 <section class="productions__container-list">
                     <div class="productions__elem">
                         <h3 class="productions__elem-title">ОСКАР 2020</h3>
@@ -186,7 +187,7 @@
                 </div>
             </article>
             <article class="partners">
-                <h2 class="partners__title"><span>партнеры</span> театра</h2>
+                <h2 class="partners__title main-title"><span>партнеры</span> театра</h2>
                 <section class="partners__container-el">
                     <img
                         src="img/partners.png"
@@ -218,7 +219,7 @@
                         alt="партнёр"
                         class="partners__img"
                     />
-                    <img
+                    <!-- <img
                         src="img/partners.png"
                         alt="партнёр"
                         class="partners__img"
@@ -227,20 +228,24 @@
                         src="img/partners.png"
                         alt="партнёр"
                         class="partners__img"
-                    />
+                    /> -->
                 </section>
             </article>
         </main>
         <footer class="footer">
-            <h2 class="footer__title"><span>стать</span> меценатом</h2>
+            <h2 class="footer__title main-title"><span>стать</span> меценатом</h2>
             <div class="footer__container-contacts">
                 <section class="footer__contacts">
-                    <p class="footer__contact-el">+7 (812) 123-45-55</p>
-                    <p class="footer__contact-el">+7 (812) 123-45-66</p>
-                    <p class="footer__contact-el">info@theater.ru</p>
-                    <p class="footer__contact-el">
-                        г. санкт-петербург, невский 140
-                    </p>
+                    <div class="footer-container-contacts">
+                        <p class="footer__contact-el">+7 (812) 123-45-55</p>
+                        <p class="footer__contact-el">+7 (812) 123-45-66</p>
+                    </div>
+                    <div class="footer-container-contacts">
+                        <p class="footer__contact-el">info@theater.ru</p>
+                        <p class="footer__contact-el">
+                            г. санкт-петербург, невский 140
+                        </p>
+                    </div>
                 </section>
                 <section class="footer__form-sending-email">
                     <form action="#" class="footer__form">
@@ -326,7 +331,7 @@
             >
         </section>
     </body>
-    
+
     <script src="https://use.fontawesome.com/1e86a438b8.js"></script>
-    <script src="js/main.min.js"></script>
+    <!-- <script src="js/main.min.js"></script> -->
 </html>

@@ -16,6 +16,21 @@ body {
     background-color: #333;
     // width: 1920px;
 }
+.main-title,
+.main-title span{
+    padding-bottom: 101px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+.about-the-theater__title span,
+.productions__title span,
+.footer__title span,
+.partners__title span {
+    color: #d1a954;
+}
 .header {
     display: flex;
     justify-content: center;
@@ -116,18 +131,6 @@ body {
 .playbill__button-nav--right i {
     padding-left: 11px;
 }
-.about-the-theater__title,
-.about-the-theater__title span {
-    padding-bottom: 101px;
-    font-weight: 300;
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    font-size: 48px;
-}
-.about-the-theater__title span {
-    color: #d1a954;
-}
 .about-the-theater__detailed-information {
     display: flex;
     justify-content: center;
@@ -165,18 +168,6 @@ body {
 }
 .about-the-theater__statistics-elem {
     padding-bottom: 14px;
-}
-.productions__title,
-.productions__title span {
-    font-weight: 300;
-    font-size: 14px;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    padding-bottom: 90px;
-}
-.productions__title span {
-    color: #d1a954;
 }
 .productions__container-list {
     display: flex;
@@ -236,20 +227,10 @@ body {
 }
 .achievement__text {
     font-size: 36px;
+    text-transform: none;
     font-family: "Open Sans", sans-serif;
 }
-.partners__title,
-.partners__title span {
-    font-weight: 300;
-    font-size: 14px;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    padding-bottom: 68px;
-}
-.partners__title span {
-    color: #d1a954;
-}
+
 .partners__img {
     padding: 39px;
 }
@@ -257,21 +238,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
 }
 .partners {
     margin-bottom: 82px;
-}
-.footer__title,
-.footer__title span {
-    font-weight: 300;
-    font-size: 14px;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    padding-bottom: 90px;
-}
-.footer__title span {
-    color: #d1a954;
 }
 .footer__container-contacts {
     display: flex;
@@ -341,12 +312,11 @@ body {
     border: none;
 }
 .watermark {
-    width: 1115px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
     padding: 30px 0;
     border-top: 1px solid #565656;
+    margin: 0 44px;
 }
 .watermark__politics,
 .watermark__developed {
