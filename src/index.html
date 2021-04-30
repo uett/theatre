@@ -10,6 +10,9 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="css/style.min.css" />
+        <link rel="stylesheet" href="css/media-queries/screen-resolution-1200.min.css">
+        <link rel="stylesheet" href="css/media-queries/screen-resolution-992.min.css">
+        <link rel="stylesheet" href="css/media-queries/screen-resolution-768.min.css">
         <title>Theatre</title>
     </head>
     <body>
@@ -24,54 +27,61 @@
             <p class="header__phone">+7 495 123-45-67</p>
         </header>
         <main class="main">
-            <article class="playbill">
-                <section class="playbill__information-about-the-theater">
-                    <h1 class="playbill__title">Большой театр</h1>
-                    <p class="playbill__subtitle">
-                        Большо́й теа́тр — петербургский театр, существовавший в
-                        1784—1886 годах, с 1886 года — Петербургская
-                        консерватория. Первое постоянное в Санкт-Петербурге,
-                        крупнейшее в России и одно из крупнейших театральных
-                        зданий в Европе XVIII.
-                    </p>
-                    <button class="playbill__button">афиша</button>
-                </section>
-                <section class="playbill__productions">
-                    <div class="playbill__container-img">
-                        <img
-                            src="img/playbill-img-1.png"
-                            alt="афиша"
-                            class="playbill__img"
-                        />
-                        <img
-                            src="img/playbill-img-2.png"
-                            alt="афиша"
-                            class="playbill__img playbill__img--background"
-                        />
-                    </div>
-                    <div class="playbill__buttons">
-                        <button
-                            class="playbill__button-nav playbill__button-nav--left"
-                        >
-                            <i
-                                class="fa fa-long-arrow-left"
-                                aria-hidden="true"
-                            ></i
-                            >пред
-                        </button>
-                        <button
-                            class="playbill__button-nav playbill__button-nav--right"
-                        >
-                            след<i
-                                class="fa fa-long-arrow-right"
-                                aria-hidden="true"
-                            ></i>
-                        </button>
-                    </div>
-                </section>
-            </article>
+            <div class="playbill">
+                <div class="playbill__container">
+                    <section class="playbill__information-about-the-theater">
+                        <h1 class="playbill__title">Большой театр</h1>
+                        <p class="playbill__subtitle">
+                            Большо́й теа́тр — петербургский театр, существовавший в
+                            1784—1886 годах, с 1886 года — Петербургская
+                            консерватория. Первое постоянное в Санкт-Петербурге,
+                            крупнейшее в России и одно из крупнейших театральных
+                            зданий в Европе XVIII.
+                        </p>
+                        <button class="playbill__button">афиша</button>
+                    </section>
+
+                    <section class="playbill__productions">
+                        <div class="playbill__container-img">
+                            <img
+                                src="img/playbill-img-1.png"
+                                alt="афиша"
+                                class="playbill__img"
+                            />
+                            <img
+                                src="img/playbill-img-2.png"
+                                alt="афиша"
+                                class="playbill__img playbill__img--background"
+                            />
+                        </div>
+                        <div class="playbill__buttons">
+                            <button
+                                class="playbill__button-nav playbill__button-nav--left"
+                            >
+                                <i
+                                    class="fa fa-long-arrow-left"
+                                    aria-hidden="true"
+                                ></i
+                                >пред
+                            </button>
+                            <button
+                                class="playbill__button-nav playbill__button-nav--right"
+                            >
+                                след<i
+                                    class="fa fa-long-arrow-right"
+                                    aria-hidden="true"
+                                ></i>
+                            </button>
+                        </div>
+                    </section>
+                </div>
+                
+            </div>
+
             <article class="about-the-theater">
-                <h2 class="about-the-theater__title main-title"><span>о</span> театре</h2>
+                <h2 class="about-the-theater__title main-title">
+                    <span>о</span> театре
+                </h2>
                 <section class="about-the-theater__detailed-information">
                     <div class="about-the-theater__text">
                         <h3 class="about-the-theater__text-title">
@@ -125,7 +135,9 @@
                 </section>
             </article>
             <article class="productions">
-                <h2 class="productions__title main-title"><span>наши</span> постановки</h2>
+                <h2 class="productions__title main-title">
+                    <span>наши</span> постановки
+                </h2>
                 <section class="productions__container-list">
                     <div class="productions__elem">
                         <h3 class="productions__elem-title">ОСКАР 2020</h3>
@@ -187,7 +199,9 @@
                 </div>
             </article>
             <article class="partners">
-                <h2 class="partners__title main-title"><span>партнеры</span> театра</h2>
+                <h2 class="partners__title main-title">
+                    <span>партнеры</span> театра
+                </h2>
                 <section class="partners__container-el">
                     <img
                         src="img/partners.png"
@@ -223,7 +237,9 @@
             </article>
         </main>
         <footer class="footer">
-            <h2 class="footer__title main-title"><span>стать</span> меценатом</h2>
+            <h2 class="footer__title main-title">
+                <span>стать</span> меценатом
+            </h2>
             <div class="footer__container-contacts">
                 <section class="footer__contacts">
                     <div class="footer-container-contacts">
