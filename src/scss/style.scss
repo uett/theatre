@@ -1,6 +1,8 @@
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Open Sans Condensed', sans-serif; */
-
+// .footer{
+//     display: none !important;
+// }
 * {
     padding: 0;
     margin: 0;
@@ -16,15 +18,35 @@ body {
     background-color: #333;
     // width: 1920px;
 }
+.main-title,
+.main-title span {
+    padding-bottom: 101px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+.about-the-theater__title span,
+.productions__title span,
+.footer__title span,
+.partners__title span {
+    color: #d1a954;
+}
+.header,
+.playbill__container,
+.about-the-theater,
+.partners,
+.footer {
+    width: 1110px;
+    margin: 0 auto;
+}
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     padding-top: 52px;
     z-index: 10;
     position: relative;
-}
-.header__list {
-    padding-right: 163px;
 }
 .header__link:last-child {
     padding-right: 0px;
@@ -40,22 +62,71 @@ body {
     border-bottom: 2px solid #d1a954;
     padding-bottom: 4px;
 }
+.header__social-icon,
+.header__close,
+.header__menu-button {
+    padding: 15px;
+    width: 45px;
+    height: 45px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header__menu-button {
+    display: none;
+    position: absolute;
+    top: 42px;
+    left: 40px;
+    background-image: url(../img/menu.png);
+    background-color: transparent;
+    border: none;
+}
+.header__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-image: url(../img/close.png);
+    background-color: transparent;
+    border: none;
+}
+.header__social-icon--facebook {
+    background-image: url(../img/facebook.png);
+}
+.header__social-icon--instagram {
+    background-image: url(../img/instagram.png);
+}
+.header__social-icon--youtube {
+    background-image: url(../img/youtube.png);
+}
+.header__social-icon--vk {
+    background-image: url(../img/vk.png);
+}
+.header__social {
+    display: none;
+
+    width: 150px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
 .playbill {
     position: relative;
-    padding-top: 267px;
-    padding-bottom: 208px;
     margin-bottom: 66px;
     top: -78px;
     z-index: 9;
-    display: flex;
-    justify-content: center;
     background-image: url(../img/playbill-background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
+.playbill__container {
+    padding-top: 267px;
+    padding-bottom: 208px;
+    display: flex;
+    justify-content: center;
+}
 .playbill__information-about-the-theater {
     padding-right: 125px;
     align-self: center;
+    z-index: 11;
 }
 .playbill__title {
     font-size: 64px;
@@ -116,18 +187,6 @@ body {
 .playbill__button-nav--right i {
     padding-left: 11px;
 }
-.about-the-theater__title,
-.about-the-theater__title span {
-    padding-bottom: 101px;
-    font-weight: 300;
-    text-align: center;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    font-size: 48px;
-}
-.about-the-theater__title span {
-    color: #d1a954;
-}
 .about-the-theater__detailed-information {
     display: flex;
     justify-content: center;
@@ -166,18 +225,6 @@ body {
 .about-the-theater__statistics-elem {
     padding-bottom: 14px;
 }
-.productions__title,
-.productions__title span {
-    font-weight: 300;
-    font-size: 14px;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    padding-bottom: 90px;
-}
-.productions__title span {
-    color: #d1a954;
-}
 .productions__container-list {
     display: flex;
     justify-content: flex-end;
@@ -185,6 +232,8 @@ body {
 }
 .productions__elem-img {
     width: 100%;
+    min-height: 270px;
+    object-fit: cover;
 }
 .productions__elem-title {
     font-size: 24px;
@@ -236,20 +285,10 @@ body {
 }
 .achievement__text {
     font-size: 36px;
+    text-transform: none;
     font-family: "Open Sans", sans-serif;
 }
-.partners__title,
-.partners__title span {
-    font-weight: 300;
-    font-size: 14px;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    padding-bottom: 68px;
-}
-.partners__title span {
-    color: #d1a954;
-}
+
 .partners__img {
     padding: 39px;
 }
@@ -257,21 +296,11 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
 }
 .partners {
     margin-bottom: 82px;
-}
-.footer__title,
-.footer__title span {
-    font-weight: 300;
-    font-size: 14px;
-    font-size: 48px;
-    text-align: center;
-    letter-spacing: 0.1em;
-    padding-bottom: 90px;
-}
-.footer__title span {
-    color: #d1a954;
 }
 .footer__container-contacts {
     display: flex;
@@ -296,8 +325,7 @@ body {
 .footer__input {
     width: 152px;
     height: 17px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin: 0 30px 30px 0;
     background-color: transparent;
     border: 1px solid #616161;
     outline: none;
@@ -305,7 +333,7 @@ body {
 }
 .footer__textarea {
     width: 280px;
-    height: 86px;
+    height: 79px;
     background-color: transparent;
     border: 1px solid #616161;
     outline: none;
@@ -341,12 +369,11 @@ body {
     border: none;
 }
 .watermark {
-    width: 1115px;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
     padding: 30px 0;
     border-top: 1px solid #565656;
+    margin: 0 auto;
 }
 .watermark__politics,
 .watermark__developed {
@@ -408,8 +435,4 @@ body {
     outline: none !important;
     cursor: pointer;
 }
-@media screen and (max-width: 576px) {
-    .popup-thanks-center-of-the-page {
-        min-width: 293px;
-    }
-}
+

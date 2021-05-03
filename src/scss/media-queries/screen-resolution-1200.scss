@@ -1,0 +1,52 @@
+@media (max-width: 1200.9px) {
+    .header,
+    .playbill__container,
+    .about-the-theater,
+    .partners,
+    .footer {
+        width: 880px;
+    }
+    .header__link {
+        padding-right: 35px;
+        font-size: 17px;
+    }
+    .playbill{
+        margin-bottom: 27px;
+    }
+    .playbill__information-about-the-theater {
+        padding-right: 89px;
+    }
+    .playbill__title {
+        font-size: 55px;
+    }
+    .about-the-theater__text{
+        max-width: 279px;
+    padding-right: 32px;
+    }
+    .about-the-theater__statistics{
+        padding-right: 19px;
+    }
+    .about-the-theater__text-subtitle{
+        font-size: 12px;
+    }
+    .about-the-theater__text-title, .about-the-theater__statistics-title{
+        padding-bottom: 26px;
+    font-size: 20px;
+    }
+    .footer__contacts{
+        margin-right: 29px;
+    }
+    .footer__contact-el{
+        font-size: 15px;
+    }
+    .footer__input {
+        width: 131px;
+    }
+    .footer__container-input {
+        width: 396px;
+    }
+    .footer__textarea {
+        width: 177px;
+    }
+    
+}

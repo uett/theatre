@@ -1,0 +1,126 @@
+@media (max-width: 992.9px) {
+    .header {
+        width: 699px;
+        margin: 0 auto;
+        display: inherit;
+        text-align: center;
+    }
+    .header__list {
+        padding-bottom: 50px;
+    }
+    .header__link {
+        padding-right: 26px;
+    }
+    .header__phone {
+        display: inline-block;
+    }
+    .playbill {
+        top: -151px;
+        padding-top: 112px;
+        padding-bottom: 157px;
+        margin-bottom: 0;
+    }
+    .playbill__productions {
+        display: none;
+    }
+    .playbill__title {
+        font-size: 65px;
+        padding-bottom: 36px;
+    }
+    .playbill__subtitle {
+        padding-bottom: 53px;
+    }
+    .about-the-theater__photo-theatre {
+        display: none;
+    }
+    .playbill__information-about-the-theater {
+        padding-right: 77px;
+    }
+    .footer__container-contacts {
+        flex-direction: column-reverse;
+    }
+    .footer__container-text-fields {
+        justify-content: center;
+    }
+    .footer__container-send-button {
+        width: 690px;
+        margin: 0 auto;
+    }
+    .footer__contacts {
+        margin: 0 auto;
+        display: flex;
+        width: 690px;
+        justify-content: space-between;
+    }
+    .watermark {
+        width: 690px;
+    }
+    .footer__form-sending-email {
+        padding-bottom: 80px;
+    }
+    .about-the-theater__statistics-img {
+        padding-bottom: 9px;
+    }
+    .about-the-theater__text-subtitle {
+        line-height: 21px;
+        font-size: 14px;
+    }
+    .about-the-theater__detailed-information {
+        padding-bottom: 134px;
+        justify-content: space-around;
+    }
+    .about-the-theater__text {
+        max-width: 445px;
+    }
+    .about-the-theater__text-title,
+    .about-the-theater__statistics-title {
+        padding-bottom: 35px;
+        font-size: 21px;
+    }
+    .achievement {
+        padding: 121px;
+        padding-left: 188px;
+        margin-bottom: 157px;
+    }
+    .achievement__years {
+        padding-right: 77px;
+    }
+    .achievement__text {
+        font-size: 33px;
+        line-height: 52px;
+        text-transform: none;
+        letter-spacing: 1px;
+    }
+    .achievement__icon-star {
+        padding-bottom: 19px;
+    }
+    .partners__title,
+    .partners__title span {
+        padding-bottom: 63px;
+    }
+    .footer__textarea {
+        width: 329px;
+    }
+    .footer__button-form {
+        padding: 10px 44px;
+    }
+    .footer__input {
+        height: 13px;
+    }
+    .productions__elem-data{
+        left: -40px;
+    }
+    .productions__elem-title{
+        top: 12px;
+    }
+}
+@media (max-width: 879.9px) {
+    .header,
+    .playbill__container,
+    .about-the-theater,
+    .partners,
+    .footer {
+        width: 769px;
+    }
+}
+
