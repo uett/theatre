@@ -37,7 +37,7 @@ body {
 .playbill__container,
 .about-the-theater,
 .partners,
-.footer{
+.footer {
     width: 1110px;
     margin: 0 auto;
 }
@@ -62,16 +62,62 @@ body {
     border-bottom: 2px solid #d1a954;
     padding-bottom: 4px;
 }
+.header__social-icon,
+.header__close,
+.header__menu-button {
+    padding: 15px;
+    width: 45px;
+    height: 45px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header__menu-button {
+    display: none;
+    position: absolute;
+    top: 42px;
+    left: 40px;
+    background-image: url(../img/menu.png);
+    background-color: transparent;
+    border: none;
+}
+.header__close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-image: url(../img/close.png);
+    background-color: transparent;
+    border: none;
+}
+.header__social-icon--facebook {
+    background-image: url(../img/facebook.png);
+}
+.header__social-icon--instagram {
+    background-image: url(../img/instagram.png);
+}
+.header__social-icon--youtube {
+    background-image: url(../img/youtube.png);
+}
+.header__social-icon--vk {
+    background-image: url(../img/vk.png);
+}
+.header__social {
+    display: none;
+
+    width: 150px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
 .playbill {
     position: relative;
     margin-bottom: 66px;
     top: -78px;
-    z-index: 9;   
+    z-index: 9;
     background-image: url(../img/playbill-background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.playbill__container{
+.playbill__container {
     padding-top: 267px;
     padding-bottom: 208px;
     display: flex;
@@ -287,7 +333,7 @@ body {
 }
 .footer__textarea {
     width: 280px;
-    height: 86px;
+    height: 79px;
     background-color: transparent;
     border: 1px solid #616161;
     outline: none;
@@ -389,8 +435,4 @@ body {
     outline: none !important;
     cursor: pointer;
 }
-@media screen and (max-width: 576px) {
-    .popup-thanks-center-of-the-page {
-        min-width: 293px;
-    }
-}
+
